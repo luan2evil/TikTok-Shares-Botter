@@ -16,10 +16,10 @@ class TikTok:
             print('\nInteger expected.')
             os.system('title [TikTok Shares Botter] - Restart required')
             os.system('pause >NUL')
-            os._exit(0)
+            os._exit(500)
 
         try:
-            self.video_id = input('> TikTok URL: ').split('/')[5]
+            self.video_id = input('> TikTok URL:https://www.tiktok.com/@luan2evil/video/7089697307242794245?is_from_webapp=1&sender_device=pc&web_id=7089743441710515717 ').split('/')[5]
         except IndexError:
             print(
                 '\nInvalid TikTok URL format.\nFormat expected: https://www.tiktok.com/@username/vi'
